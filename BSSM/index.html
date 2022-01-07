@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/643cfb1afc.js" crossorigin="anonymous"></script>
+    <title>SPOWU</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="headerbar">
+        <ul class="header_logo">
+            <a>BSSM</a>
+        </ul>
+        <ul class="header_menu">
+            <li><a href="#rangking">구단 순위</a></li>
+            <li><a href="">선수순위</a></li>
+            <li><a href="">일정 . 결과</a></li>
+            <li><a href="">구단별 정보</a></li>
+        </ul>
+        <ul class="header_loginbar">
+            <li><button type="button" id="header_button" class="btn btn-primary">로그인</button></li>
+            <li><button type="button" id="header_button" class="btn btn-primary">회원가입</button></li>
+        </ul>
+        <a href="#" class="header_toogleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+    <section id="visual">
+        <h2>SPOWU</h2>
+        <p class="fn-font">
+            <p>이 웹사이트는 부산소프트웨어마이스터고등학교의 신입생들이 만든 것 입니다.</p>
+            <p class="BSSM_name">박현준(기획자),권강빈,김나영,김민준,김석진,심효은,박우빈,윤동현</p>
+        </p>
+    </section>
+    <div class="container" id="rangking">
+        <section class="rangking">
+            <table>
+                <h1>누적 우승횟수</h1>
+                <tr>
+                    <th>순위</th>
+                    <th class="table_team">팀명</th>
+                    <th>우승횟수</th>
+                    <th>준우승횟수</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <th class="table_team">LA 레이커스</th>
+                    <td>17</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <th class="table_team">보스턴 셀틱스</th>
+                    <td>17</td>
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <th class="table_team">골든스트이트 워리어스</th>
+                    <td>6</td>
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <th class="table_team">시카고 불스</th>
+                    <td>6</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <th class="table_team">샌안토니오 스퍼스</th>
+                    <td>5</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <th class="table_team">필라델피아 세븐티식서스</th>
+                    <td>3</td>
+                    <td>6</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <th class="table_team">디트로이트</th>
+                    <td>3</td>
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <th class="table_team">마이애미 히트 </th>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+            </table>
+
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    시즌
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">2021-22</a>
+                    <a class="dropdown-item" href="#">2020-21</a>
+                    <a class="dropdown-item" href="#">2019-20</a>
+                    <a class="dropdown-item" href="#">2018-19</a>
+                    <a class="dropdown-item" href="#">2017-18</a>
+                </div>
+            </div>
+            <table>
+                <h1>현재 순위</h1>
+                <tr>
+                    <th>순위</th>
+                    <th class="table_team">팀명</th>
+                    <th>우승횟수</th>
+                    <th>준우승횟수</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <th class="table_team">LA 레이커스</th>
+                    <td>17</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <th class="table_team">보스턴 셀틱스</th>
+                    <td>17</td>
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <th class="table_team">골든스트이트 워리어스</th>
+                    <td>6</td>
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <th class="table_team">시카고 불스</th>
+                    <td>6</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <th class="table_team">샌안토니오 스퍼스</th>
+                    <td>5</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <th class="table_team">필라델피아 세븐티식서스</th>
+                    <td>3</td>
+                    <td>6</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <th class="table_team">디트로이트</th>
+                    <td>3</td>
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <th class="table_team">마이애미 히트 </th>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <div class="story-card footer-card">
+        <div class="site-footer-wrapper">
+            <p class="footer-country lang">BSSM</p>
+            <div class="copy-text">
+                <div class="copy-text-block lang">&copy 2021 BSSM. All rights reserved</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+
+</html>
